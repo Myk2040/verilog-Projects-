@@ -1,0 +1,88 @@
+m255
+K3
+z0
+13
+cModel Technology
+Z0 dC:\Users\mayan\OneDrive\Desktop\project\operator
+T_opt
+V5H<E3`]hImjF?=nRm17`<1
+Z1 04 10 4 work logical_op fast 0
+=1-000ae431a4f1-65e81e65-305-5fa8
+Z2 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.0b;49
+R0
+T_opt1
+!s110 1710913212
+ViAjP61Kz5eMZaD:@6mdYD2
+R1
+=1-d88083eee32d-65fa76bc-13b-30e8
+R2
+n@_opt1
+Z3 OL;O;10.4e;61
+R0
+T_opt2
+!s110 1712237397
+V`BLlgf_R1C=8;4g@d6bD^1
+04 9 4 work fork_join fast 0
+=1-d88083eee32d-660eab54-363-dad0
+R2
+n@_opt2
+R3
+vfork_join
+!s110 1712237393
+!i10b 1
+!s100 =h1jejIk2g<`^f9izgeZ42
+IjTkG[DdTd@6gjzcm23IXm3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dC:/Users/mayan/OneDrive/Desktop/project/operator
+w1712237245
+8fork_join.v
+Ffork_join.v
+L0 1
+Z6 OL;L;10.4e;61
+r1
+!s85 0
+31
+!s108 1712237393.000000
+!s107 fork_join.v|
+!s90 fork_join.v|
+!i113 0
+Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vlogical_op
+!s110 1710913211
+!i10b 1
+!s100 aB5kUKCBR2H]dBXFDLnOO3
+I`LfY11gUa1281i:e;]9jH0
+R4
+R5
+w1709710573
+8bitwise_op.v
+Fbitwise_op.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1710913211.000000
+!s107 bitwise_op.v|
+!s90 bitwise_op.v|
+!i113 0
+R7
+vtb
+!s100 WeRK0=O;SkXBJ7>oL_2DZ2
+I:ZhOTkz`5:<=RYkD>;1cK2
+VV@Xn<HnSRM[I5c1?BH]3a3
+R0
+w1704714416
+8logical_op.v
+Flogical_op.v
+L0 1
+OE;L;10.0b;49
+r1
+!s85 0
+31
+!s108 1709710971.680000
+!s107 logical_op.v|
+!s90 logical_op.v|
+o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF

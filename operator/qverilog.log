@@ -1,0 +1,39 @@
+Start time: 07:51:57 on Apr 11,2024
+qverilog Event.v 
+-- Compiling module logical_op
+
+Top level modules:
+	logical_op
+# vsim -lib work logical_op -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# //  Questa Sim-64
+# //  Version 10.4e win64 Apr  9 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading work.logical_op(fast)
+# run -all
+# dl : a  =   x
+# d2: a  =   5
+# s1 : a =   8
+# d3 : a =   8
+# d4 : a =  18
+# s2 : a =   3
+# mon : a =   3
+# mon : a =  12
+# mon : a =  13
+# ** Note: $finish    : Event.v(46)
+#    Time: 31 ns  Iteration: 0  Instance: /logical_op
+# End time: 07:52:04 on Apr 11,2024, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0

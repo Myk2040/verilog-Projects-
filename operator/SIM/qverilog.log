@@ -1,0 +1,12 @@
+QuestaSim qverilog 10.0b Compiler 2011.05 May  5 2011
+qverilog ..\bitwise_op.v 
+-- Compiling module logical_op
+
+Top level modules:
+	logical_op
++ C:\questasim_10.0b\win32/vsim -lib work logical_op -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt
+** Fatal: (SIGINT) Compile interrupted.
+** Error: ..\bitwise_op.v(67): Verilog Compiler exiting
+key hit 
+# ** Note: (vsim-3812) Design is being optimized...
+# Error loading design

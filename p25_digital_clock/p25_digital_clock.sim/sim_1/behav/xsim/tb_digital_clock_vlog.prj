@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../p25_digital_clock.srcs/sources_1/new/digital_clock.v" \
+"../../../../p25_digital_clock.srcs/sim_1/new/tb_digital_clock.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

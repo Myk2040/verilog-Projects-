@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../p29_rotate_bit.srcs/sources_1/new/rotate_bit.v" \
+"../../../../p29_rotate_bit.srcs/sim_1/new/rotate_bit_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

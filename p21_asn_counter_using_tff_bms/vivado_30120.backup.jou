@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Thu Feb  1 18:40:46 2024
+# Process ID: 30120
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p21_asn_counter_using_tff_bms
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12552 C:\Users\mayan\OneDrive\Desktop\project\p21_asn_counter_using_tff_bms\p21_asn_counter_using_tff_bms.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p21_asn_counter_using_tff_bms/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p21_asn_counter_using_tff_bms\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/p21_asn_counter_using_tff_bms/p21_asn_counter_using_tff_bms.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source top.tcl
+add_force {/top/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/top/rst} -radix hex {1 0ns}
+run 1000 ns
+add_force {/top/rst} -radix hex {0 0ns}
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+launch_simulation
+source top.tcl
+add_force {/top/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/top/rst} -radix hex {1 0ns}
+run 1000 ns
+add_force {/top/rst} -radix hex {0 0ns}
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+launch_simulation
+source top.tcl
+add_force {/top/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/top/rst} -radix hex {1 0ns}
+run 1000 ns
+add_force {/top/rst} -radix hex {0 0ns}
+run 1000 ns
+add_force {/top/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+run 1000 ns
+run 1000 ns
+file mkdir C:/Users/mayan/OneDrive/Desktop/project/p21_asn_counter_using_tff_bms/p21_asn_counter_using_tff_bms.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/mayan/OneDrive/Desktop/project/p21_asn_counter_using_tff_bms/p21_asn_counter_using_tff_bms.srcs/sim_1/new/tb.v w ]
+add_files -fileset sim_1 C:/Users/mayan/OneDrive/Desktop/project/p21_asn_counter_using_tff_bms/p21_asn_counter_using_tff_bms.srcs/sim_1/new/tb.v
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source top.tcl
+update_compile_order -fileset sim_1
+run all
+run 1000 ns
+run all
+close_sim

@@ -1,0 +1,482 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Mon Mar 11 13:36:12 2024
+# Process ID: 4900
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15580 C:\Users\mayan\OneDrive\Desktop\project\p24_decoder_10_1024\p_24_decoder_10_1024.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1927.270 ; gain = 352.578
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1988.430 ; gain = 36.676
+run all
+run all
+run all
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2013.914 ; gain = 9.336
+run all
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2014.777 ; gain = 0.000
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: top
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2788.094 ; gain = 425.051
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.srcs/sources_1/new/top.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2884.410 ; gain = 521.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2902.285 ; gain = 539.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2902.285 ; gain = 539.242
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 2902.285 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3015.035 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 3024.098 ; gain = 661.055
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:16 . Memory (MB): peak = 3024.098 ; gain = 1002.492
+synth_design -dataflow -name dfv_1
+Command: synth_design -dataflow -name dfv_1
+Starting synth_design
+Using part: xc7z010clg400-1
+Top: top
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 3085.016 ; gain = 60.918
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.srcs/sources_1/new/top.v:3]
+WARNING: [Synth 8-3330] design top has an empty top module
+WARNING: [Synth 8-7129] Port y[1023] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1022] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1021] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1020] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1019] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1018] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1017] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1016] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1015] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1014] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1013] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1012] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1011] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1010] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1009] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1008] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1007] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1006] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1005] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1004] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1003] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1002] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1001] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[1000] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[999] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[998] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[997] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[996] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[995] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[994] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[993] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[992] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[991] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[990] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[989] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[988] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[987] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[986] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[985] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[984] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[983] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[982] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[981] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[980] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[979] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[978] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[977] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[976] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[975] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[974] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[973] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[972] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[971] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[970] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[969] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[968] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[967] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[966] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[965] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[964] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[963] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[962] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[961] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[960] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[959] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[958] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[957] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[956] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[955] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[954] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[953] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[952] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[951] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[950] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[949] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[948] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[947] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[946] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[945] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[944] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[943] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[942] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[941] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[940] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[939] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[938] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[937] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[936] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[935] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[934] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[933] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[932] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[931] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[930] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[929] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[928] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[927] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[926] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[925] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[924] in module top is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 3205.477 ; gain = 181.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 3205.496 ; gain = 181.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 3205.496 ; gain = 181.398
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3205.496 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3228.262 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 3233.125 ; gain = 209.027
+INFO: [Common 17-83] Releasing license: Synthesis
+8 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 3233.125 ; gain = 209.027
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 3240.836 ; gain = 7.711
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 11 13:48:11 2024...

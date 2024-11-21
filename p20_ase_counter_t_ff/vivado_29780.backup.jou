@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Wed Jan 31 00:23:23 2024
+# Process ID: 29780
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23784 C:\Users\mayan\OneDrive\Desktop\project\p20_ase_counter_t_ff\p20_ase_counter_t_ff.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source top2.tcl
+add_force {/top2/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/top2/t} -radix hex {1 0ns} {0 100000ps} -repeat_every 200000ps
+run 10000 ns
+add_force {/top2/t} -radix hex {0 0ns} {1 150000ps} -repeat_every 300000ps
+run 10000 ns
+run 10000 ns
+close_sim
+launch_simulation
+source top2.tcl
+add_force {/top2/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/top2/t} -radix hex {1 0ns} {0 100000ps} -repeat_every 200000ps
+run 10000 ns
+add_force {/top2/t} -radix hex {0 0ns} {1 150000ps} -repeat_every 300000ps
+run 10000 ns
+close_sim
+launch_simulation
+source top2.tcl
+add_force {/top2/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/top2/t} -radix hex {0 0ns} {1 150000ps} -repeat_every 300000ps
+run 10000 ns
+close_sim
+launch_simulation
+source top2.tcl
+add_force {/top2/clk} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/top2/t} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+run 10000 ns
+add_force {/top2/t} -radix hex {1 0ns} {0 200000ps} -repeat_every 400000ps
+run 10000 ns
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
+launch_simulation
+source top2.tcl
+add_force {/top2/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/top2/t} -radix hex {1 0ns} {0 200000ps} -repeat_every 400000ps
+run 10000 ns
+close_sim
+launch_simulation
+source top2.tcl
+add_force {/top2/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/top2/t} -radix hex {0 0ns} {1 100000ps} -repeat_every 200000ps
+run 10000 ns
+file mkdir C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sim_1/new/tb.v w ]
+add_files -fileset sim_1 C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sim_1/new/tb.v
+update_compile_order -fileset sim_1
+launch_simulation
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim

@@ -1,0 +1,458 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Wed Jan 31 00:23:23 2024
+# Process ID: 29780
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23784 C:\Users\mayan\OneDrive\Desktop\project\p20_ase_counter_t_ff\p20_ase_counter_t_ff.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 1930.309 ; gain = 343.105
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top2' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top2_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top2
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top2_behav xil_defaultlib.top2 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top2_behav xil_defaultlib.top2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.t_ff
+Compiling module xil_defaultlib.top2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top2_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top2_behav -key {Behavioral:sim_1:Functional:top2} -tclbatch {top2.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top2.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top2_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 1986.117 ; gain = 33.316
+add_force {/top2/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/top2/t} -radix hex {1 0ns} {0 100000ps} -repeat_every 200000ps
+run 10000 ns
+add_force {/top2/t} -radix hex {0 0ns} {1 150000ps} -repeat_every 300000ps
+run 10000 ns
+run 10000 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top2' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top2_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/t_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top2
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top2_behav xil_defaultlib.top2 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top2_behav xil_defaultlib.top2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.t_ff
+Compiling module xil_defaultlib.top2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top2_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top2_behav -key {Behavioral:sim_1:Functional:top2} -tclbatch {top2.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top2.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top2_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1998.707 ; gain = 0.000
+add_force {/top2/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/top2/t} -radix hex {1 0ns} {0 100000ps} -repeat_every 200000ps
+run 10000 ns
+add_force {/top2/t} -radix hex {0 0ns} {1 150000ps} -repeat_every 300000ps
+run 10000 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top2' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top2_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/t_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top2
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top2_behav xil_defaultlib.top2 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top2_behav xil_defaultlib.top2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.t_ff
+Compiling module xil_defaultlib.top2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top2_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top2_behav -key {Behavioral:sim_1:Functional:top2} -tclbatch {top2.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top2.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top2_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 2012.125 ; gain = 3.621
+add_force {/top2/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/top2/t} -radix hex {0 0ns} {1 150000ps} -repeat_every 300000ps
+run 10000 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top2' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top2_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/t_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top2
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top2_behav xil_defaultlib.top2 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top2_behav xil_defaultlib.top2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.t_ff
+Compiling module xil_defaultlib.top2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top2_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top2_behav -key {Behavioral:sim_1:Functional:top2} -tclbatch {top2.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top2.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top2_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2012.223 ; gain = 0.000
+add_force {/top2/clk} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/top2/t} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+run 10000 ns
+add_force {/top2/t} -radix hex {1 0ns} {0 200000ps} -repeat_every 400000ps
+run 10000 ns
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: top2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 2785.695 ; gain = 415.055
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top2' [C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/top2.v:4]
+INFO: [Synth 8-6157] synthesizing module 't_ff' [C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/t_ff.v:3]
+INFO: [Synth 8-6155] done synthesizing module 't_ff' (0#1) [C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/t_ff.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'top2' (0#1) [C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/top2.v:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2864.746 ; gain = 494.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2882.578 ; gain = 511.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2882.578 ; gain = 511.938
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2882.578 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2952.809 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 2960.086 ; gain = 589.445
+8 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 2960.086 ; gain = 943.625
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top2' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top2_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/t_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top2
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top2_behav xil_defaultlib.top2 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top2_behav xil_defaultlib.top2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.t_ff
+Compiling module xil_defaultlib.top2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top2_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top2_behav -key {Behavioral:sim_1:Functional:top2} -tclbatch {top2.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top2.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top2_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 2960.086 ; gain = 0.000
+add_force {/top2/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/top2/t} -radix hex {1 0ns} {0 200000ps} -repeat_every 400000ps
+run 10000 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top2' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top2_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top2_behav xil_defaultlib.top2 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top2_behav xil_defaultlib.top2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top2_behav -key {Behavioral:sim_1:Functional:top2} -tclbatch {top2.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top2.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top2_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2974.402 ; gain = 0.000
+add_force {/top2/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/top2/t} -radix hex {0 0ns} {1 100000ps} -repeat_every 200000ps
+run 10000 ns
+file mkdir C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sim_1/new/tb.v w ]
+add_files -fileset sim_1 C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sim_1/new/tb.v
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim/simulate.log"
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 31 00:48:14 2024...

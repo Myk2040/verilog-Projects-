@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Fri Apr 19 10:58:19 2024
+# Process ID: 10368
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p28_Timer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent39820 C:\Users\mayan\OneDrive\Desktop\project\p28_Timer\p28_Timer.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p28_Timer/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p28_Timer\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui

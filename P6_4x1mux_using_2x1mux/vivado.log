@@ -1,0 +1,1135 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Jan  1 19:22:20 2024
+# Process ID: 8972
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13716 C:\Users\mayan\OneDrive\Desktop\project\P6_4x1mux_using_2x1mux\P6_4x1mux_using_2x1mux.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1775.699 ; gain = 349.199
+file mkdir C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new
+close [ open C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v w ]
+add_files C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v w ]
+add_files C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v w ]
+add_files -fileset sim_1 C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v:9]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1838.676 ; gain = 10.785
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v:9]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1845.156 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v:9]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1845.156 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux_2x1
+Compiling module xil_defaultlib.mux_4x1_using_2x1
+Compiling module xil_defaultlib.mux_4x1_using_2x1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mux_4x1_using_2x1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mux_4x1_using_2x1_tb_behav -key {Behavioral:sim_1:Functional:mux_4x1_using_2x1_tb} -tclbatch {mux_4x1_using_2x1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source mux_4x1_using_2x1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 40 ns : File "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" Line 20
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mux_4x1_using_2x1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 1870.020 ; gain = 24.863
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v:9]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1894.332 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux_2x1
+Compiling module xil_defaultlib.mux_4x1_using_2x1
+Compiling module xil_defaultlib.mux_4x1_using_2x1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mux_4x1_using_2x1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mux_4x1_using_2x1_tb_behav -key {Behavioral:sim_1:Functional:mux_4x1_using_2x1_tb} -tclbatch {mux_4x1_using_2x1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source mux_4x1_using_2x1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 40 ns : File "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" Line 20
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mux_4x1_using_2x1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1894.332 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux_2x1
+Compiling module xil_defaultlib.mux_4x1_using_2x1
+Compiling module xil_defaultlib.mux_4x1_using_2x1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mux_4x1_using_2x1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mux_4x1_using_2x1_tb_behav -key {Behavioral:sim_1:Functional:mux_4x1_using_2x1_tb} -tclbatch {mux_4x1_using_2x1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source mux_4x1_using_2x1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 40 ns : File "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" Line 20
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mux_4x1_using_2x1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1902.535 ; gain = 1.855
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux_2x1
+Compiling module xil_defaultlib.mux_4x1_using_2x1
+Compiling module xil_defaultlib.mux_4x1_using_2x1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mux_4x1_using_2x1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mux_4x1_using_2x1_tb_behav -key {Behavioral:sim_1:Functional:mux_4x1_using_2x1_tb} -tclbatch {mux_4x1_using_2x1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source mux_4x1_using_2x1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 80 ns : File "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" Line 28
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mux_4x1_using_2x1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1905.238 ; gain = 2.703
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2j1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'a' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:12]
+ERROR: [VRFC 10-8616] 'mux2j1' requires 3 arguments [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:12]
+ERROR: [VRFC 10-8616] 'mux2j1' requires 3 arguments [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:13]
+ERROR: [VRFC 10-8616] 'mux2j1' requires 3 arguments [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:14]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'a' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:13]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'a' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:14]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1905.344 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2j1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'a' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:12]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'a' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:13]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'a' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:14]
+ERROR: [VRFC 10-8616] 'mux2j1' requires 3 arguments [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:12]
+ERROR: [VRFC 10-8616] 'mux2j1' requires 3 arguments [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:13]
+ERROR: [VRFC 10-8616] 'mux2j1' requires 3 arguments [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:14]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1905.344 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'a' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:12]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'a' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:13]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'a' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:14]
+ERROR: [VRFC 10-8616] 'mux2j1' requires 3 arguments [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:12]
+ERROR: [VRFC 10-8616] 'mux2j1' requires 3 arguments [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:13]
+ERROR: [VRFC 10-8616] 'mux2j1' requires 3 arguments [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:14]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1905.344 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'a' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:12]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'a' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:13]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'a' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:14]
+ERROR: [VRFC 10-8616] 'mux2j1' requires 3 arguments [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:12]
+ERROR: [VRFC 10-8616] 'mux2j1' requires 3 arguments [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:13]
+ERROR: [VRFC 10-8616] 'mux2j1' requires 3 arguments [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:14]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1905.344 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2j1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'a' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:13]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'a' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:14]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'a' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:15]
+ERROR: [VRFC 10-8616] 'mux2j1' requires 3 arguments [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:13]
+ERROR: [VRFC 10-8616] 'mux2j1' requires 3 arguments [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:14]
+ERROR: [VRFC 10-8616] 'mux2j1' requires 3 arguments [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:15]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1905.344 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2j1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2j1
+Compiling module xil_defaultlib.mux_4x1_using_2x1
+Compiling module xil_defaultlib.mux_4x1_using_2x1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mux_4x1_using_2x1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mux_4x1_using_2x1_tb_behav -key {Behavioral:sim_1:Functional:mux_4x1_using_2x1_tb} -tclbatch {mux_4x1_using_2x1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source mux_4x1_using_2x1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$stop called at time : 80 ns : File "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" Line 28
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mux_4x1_using_2x1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1910.355 ; gain = 5.012
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2j1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2j1
+Compiling module xil_defaultlib.mux_4x1_using_2x1
+Compiling module xil_defaultlib.mux_4x1_using_2x1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mux_4x1_using_2x1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mux_4x1_using_2x1_tb_behav -key {Behavioral:sim_1:Functional:mux_4x1_using_2x1_tb} -tclbatch {mux_4x1_using_2x1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source mux_4x1_using_2x1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$stop called at time : 80 ns : File "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" Line 28
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mux_4x1_using_2x1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1913.617 ; gain = 2.488
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2j1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2j1
+Compiling module xil_defaultlib.mux_4x1_using_2x1
+Compiling module xil_defaultlib.mux_4x1_using_2x1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mux_4x1_using_2x1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mux_4x1_using_2x1_tb_behav -key {Behavioral:sim_1:Functional:mux_4x1_using_2x1_tb} -tclbatch {mux_4x1_using_2x1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source mux_4x1_using_2x1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$stop called at time : 80 ns : File "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" Line 28
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mux_4x1_using_2x1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1914.156 ; gain = 0.539
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2j1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'a0' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v:9]
+WARNING: [VRFC 10-5021] port 'a3' is not connected on this instance [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v:9]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2j1
+Compiling module xil_defaultlib.mux_4x1_using_2x1
+Compiling module xil_defaultlib.mux_4x1_using_2x1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mux_4x1_using_2x1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mux_4x1_using_2x1_tb_behav -key {Behavioral:sim_1:Functional:mux_4x1_using_2x1_tb} -tclbatch {mux_4x1_using_2x1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source mux_4x1_using_2x1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$stop called at time : 80 ns : File "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" Line 28
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mux_4x1_using_2x1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1914.578 ; gain = 0.422
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2j1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+WARNING: [VRFC 10-3248] data object 'x' is already declared [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:11]
+WARNING: [VRFC 10-9364] second declaration of 'x' is ignored [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'a0' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v:9]
+WARNING: [VRFC 10-5021] port 'a3' is not connected on this instance [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v:9]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2j1
+Compiling module xil_defaultlib.mux_4x1_using_2x1
+Compiling module xil_defaultlib.mux_4x1_using_2x1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mux_4x1_using_2x1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mux_4x1_using_2x1_tb_behav -key {Behavioral:sim_1:Functional:mux_4x1_using_2x1_tb} -tclbatch {mux_4x1_using_2x1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source mux_4x1_using_2x1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$stop called at time : 80 ns : File "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" Line 28
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mux_4x1_using_2x1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1915.316 ; gain = 0.738
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2j1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+WARNING: [VRFC 10-3248] data object 'x' is already declared [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:11]
+WARNING: [VRFC 10-9364] second declaration of 'x' is ignored [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v:11]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'a0' [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v:9]
+WARNING: [VRFC 10-5021] port 'a3' is not connected on this instance [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v:9]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2j1
+Compiling module xil_defaultlib.mux_4x1_using_2x1
+Compiling module xil_defaultlib.mux_4x1_using_2x1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mux_4x1_using_2x1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mux_4x1_using_2x1_tb_behav -key {Behavioral:sim_1:Functional:mux_4x1_using_2x1_tb} -tclbatch {mux_4x1_using_2x1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source mux_4x1_using_2x1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$stop called at time : 80 ns : File "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" Line 28
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mux_4x1_using_2x1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1916.051 ; gain = 0.734
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-8616] 'mux_4x1_using_2x1' requires 0 arguments [C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v:9]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'mux_4x1_using_2x1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'mux_4x1_using_2x1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mux_4x1_using_2x1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2j1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sources_1/new/top2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_using_2x1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_4x1_using_2x1_tb_behav xil_defaultlib.mux_4x1_using_2x1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux2j1
+Compiling module xil_defaultlib.mux_4x1_using_2x1
+Compiling module xil_defaultlib.mux_4x1_using_2x1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mux_4x1_using_2x1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mux_4x1_using_2x1_tb_behav -key {Behavioral:sim_1:Functional:mux_4x1_using_2x1_tb} -tclbatch {mux_4x1_using_2x1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source mux_4x1_using_2x1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$stop called at time : 80 ns : File "C:/Users/mayan/OneDrive/Desktop/project/P6_4x1mux_using_2x1mux/P6_4x1mux_using_2x1mux.srcs/sim_1/new/tb.v" Line 28
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mux_4x1_using_2x1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1917.898 ; gain = 1.629
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jan  1 23:07:27 2024...

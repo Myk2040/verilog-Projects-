@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Tue Jan 23 15:25:33 2024
+# Process ID: 16516
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p12_mux2048x1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent62964 C:\Users\mayan\OneDrive\Desktop\project\p12_mux2048x1\p12_mux2048x1.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p12_mux2048x1/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p12_mux2048x1\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/p12_mux2048x1/p12_mux2048x1.xpr

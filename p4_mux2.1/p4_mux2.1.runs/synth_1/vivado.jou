@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Sun Mar 17 16:30:35 2024
+# Process ID: 10664
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p4_mux2.1/p4_mux2.1.runs/synth_1
+# Command line: vivado.exe -log mux2j1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux2j1.tcl
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p4_mux2.1/p4_mux2.1.runs/synth_1/mux2j1.vds
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p4_mux2.1/p4_mux2.1.runs/synth_1\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+source mux2j1.tcl -notrace

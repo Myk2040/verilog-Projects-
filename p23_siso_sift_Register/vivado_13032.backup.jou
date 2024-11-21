@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Fri Feb 16 07:33:09 2024
+# Process ID: 13032
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p23_siso_sift_Register
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent41996 C:\Users\mayan\OneDrive\Desktop\project\p23_siso_sift_Register\p23_siso_sift_Register.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p23_siso_sift_Register/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p23_siso_sift_Register\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/p23_siso_sift_Register/p23_siso_sift_Register.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+run 10000 ns
+run all
+close_sim
+launch_simulation
+source tb.tcl
+run 10000 ns
+run 10000 ns
+add_bp {C:/Users/mayan/OneDrive/Desktop/project/p23_siso_sift_Register/p23_siso_sift_Register.srcs/sim_1/new/tb.v} 26
+close_sim
+launch_simulation
+source tb.tcl
+run 10000 ns
+run 100 ns
+run all
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+relaunch_sim
+relaunch_sim
+close_sim

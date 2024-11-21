@@ -1,0 +1,15 @@
+C:/Users/mayan/OneDrive/Desktop/project/p30_ram/p30_ram.srcs/sim_1/new/tb.v {1 {vlog -work work -vopt -stats=none C:/Users/mayan/OneDrive/Desktop/project/p30_ram/p30_ram.srcs/sim_1/new/tb.v
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} C:/Users/mayan/OneDrive/Desktop/project/p30_ram/p30_ram.srcs/sources_1/new/top.v {1 {vlog -work work -vopt -stats=none C:/Users/mayan/OneDrive/Desktop/project/p30_ram/p30_ram.srcs/sources_1/new/top.v
+QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}}

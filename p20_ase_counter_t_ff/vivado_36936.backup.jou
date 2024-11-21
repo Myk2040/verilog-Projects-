@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Wed Jan 31 00:48:31 2024
+# Process ID: 36936
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14352 C:\Users\mayan\OneDrive\Desktop\project\p20_ase_counter_t_ff\p20_ase_counter_t_ff.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+run 10000 ns
+close_sim
+launch_simulation
+source tb.tcl
+close_sim

@@ -1,0 +1,91 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Sun Feb  4 18:06:31 2024
+# Process ID: 39160
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p22_5bit_loded_counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent38604 C:\Users\mayan\OneDrive\Desktop\project\p22_5bit_loded_counter\p22_5bit_loded_counter.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p22_5bit_loded_counter/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p22_5bit_loded_counter\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/p22_5bit_loded_counter/p22_5bit_loded_counter.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+launch_simulation
+launch_simulation
+source tb.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+launch_simulation
+source tb.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+launch_simulation
+source tb.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+launch_simulation
+source tb.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+add_bp {C:/Users/mayan/OneDrive/Desktop/project/p22_5bit_loded_counter/p22_5bit_loded_counter.srcs/sim_1/new/tb.v} 20
+close_sim
+launch_simulation
+source tb.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+add_bp {C:/Users/mayan/OneDrive/Desktop/project/p22_5bit_loded_counter/p22_5bit_loded_counter.srcs/sim_1/new/tb.v} 19
+close_sim
+launch_simulation
+source tb.tcl
+run 1000 ns
+run 1000 ns
+close_sim
+launch_simulation
+source tb.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+launch_simulation
+source tb.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+remove_bps -file {C:/Users/mayan/OneDrive/Desktop/project/p22_5bit_loded_counter/p22_5bit_loded_counter.srcs/sim_1/new/tb.v} -line 19
+remove_bps -file {C:/Users/mayan/OneDrive/Desktop/project/p22_5bit_loded_counter/p22_5bit_loded_counter.srcs/sim_1/new/tb.v} -line 20
+close_sim
+launch_simulation
+source tb.tcl
+run 1000 ns
+run 1000 ns
+close_sim

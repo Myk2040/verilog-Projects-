@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Wed Mar  6 07:47:37 2024
+# Process ID: 19208
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19216 C:\Users\mayan\OneDrive\Desktop\project\p24_decoder_10_1024\p_24_decoder_10_1024.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/p24_decoder_10_1024/p_24_decoder_10_1024.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+run all
+run all
+close_sim
+launch_simulation
+source tb.tcl
+run all
+run all

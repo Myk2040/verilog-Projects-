@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Sat Sep  7 20:03:42 2024
+# Process ID: 16316
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p30_ram
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16140 C:\Users\mayan\OneDrive\Desktop\project\p30_ram\p30_ram.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p30_ram/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p30_ram\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/p30_ram/p30_ram.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+close_sim

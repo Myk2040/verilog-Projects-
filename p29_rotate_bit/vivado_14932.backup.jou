@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Mon Mar 18 06:18:36 2024
+# Process ID: 14932
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p29_rotate_bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7020 C:\Users\mayan\OneDrive\Desktop\project\p29_rotate_bit\p29_rotate_bit.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p29_rotate_bit/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p29_rotate_bit\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/p29_rotate_bit/p29_rotate_bit.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/mayan/OneDrive/Desktop/project/p29_rotate_bit/p29_rotate_bit.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/mayan/OneDrive/Desktop/project/p29_rotate_bit/p29_rotate_bit.srcs/sim_1/new/rotate_bit_tb.v w ]
+add_files -fileset sim_1 C:/Users/mayan/OneDrive/Desktop/project/p29_rotate_bit/p29_rotate_bit.srcs/sim_1/new/rotate_bit_tb.v
+update_compile_order -fileset sim_1
+launch_simulation
+source rotate_bit.tcl
+update_compile_order -fileset sim_1
+run all
+launch_simulation
+close_sim

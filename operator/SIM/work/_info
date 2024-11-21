@@ -1,0 +1,30 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mayan\OneDrive\Desktop\project\operator\SIM
+T_opt
+V@UlZYAF0]j6f8KeAQIV=41
+04 10 4 work logical_op fast 0
+Z1 =1-000ae431a4f1-65e81b4e-328-5a4
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 n@_opt
+Z4 OE;O;10.0b;49
+Z5 dC:\Users\mayan\OneDrive\Desktop\project\operator\SIM
+vlogical_op
+Z6 IJG;cC5fl:Z0c]6007^gG00
+Z7 VmUgASicWImFe6k0<RfHg20
+R5
+Z8 w1704719857
+Z9 8..\bitwise_op.v
+Z10 F..\bitwise_op.v
+L0 1
+Z11 OE;L;10.0b;49
+r1
+31
+Z12 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z13 !s100 mV95c]fDLTd33Y?>cC00A2
+!s85 0
+Z14 !s108 1709710134.023000
+Z15 !s107 ..\bitwise_op.v|
+Z16 !s90 ..\bitwise_op.v|

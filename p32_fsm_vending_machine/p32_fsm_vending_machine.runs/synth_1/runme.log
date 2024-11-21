@@ -1,0 +1,5 @@
+
+*** Running vivado
+    with args -log vending_machine.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source vending_machine.tcl
+
+

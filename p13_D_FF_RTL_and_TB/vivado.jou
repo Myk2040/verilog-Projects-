@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Wed Oct 16 19:31:31 2024
+# Process ID: 41756
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p13_D_FF_RTL_and_TB
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent37812 C:\Users\mayan\OneDrive\Desktop\project\p13_D_FF_RTL_and_TB\p13_D_FF_RTL_and_TB.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p13_D_FF_RTL_and_TB/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p13_D_FF_RTL_and_TB\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_guiopen_project C:/Users/mayan/OneDrive/Desktop/project/p13_D_FF_RTL_and_TB/p13_D_FF_RTL_and_TB.xpr
+ulaunch_runs synth_1 -jobs 6
+launch_simulation

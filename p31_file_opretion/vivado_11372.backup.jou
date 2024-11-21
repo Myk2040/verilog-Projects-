@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Fri Apr 19 10:31:08 2024
+# Process ID: 11372
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p31_file_opretion
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18072 C:\Users\mayan\OneDrive\Desktop\project\p31_file_opretion\p31_file_opretion.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p31_file_opretion/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p31_file_opretion\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/p31_file_opretion/p31_file_opretion.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_simulation
+source tb.tcl
+run 1000 ns
+close_sim
+launch_simulation
+source tb.tcl
+run 1000 ns
+run 1000 ns
+close_sim
+launch_simulation
+source tb.tcl
+run 1000 ns
+run 1000 ns
+close_sim

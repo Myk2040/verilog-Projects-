@@ -1,0 +1,7 @@
+Running: xsim.dir/rotate_bit_behav/xsimk.exe -simmode gui -wdb rotate_bit_behav.wdb -simrunnum 0 -socket 64284
+Design successfully loaded
+Design Loading Memory Usage: 8424 KB (Peak: 8424 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 9076 KB (Peak: 9076 KB)
+Simulation CPU Usage: 30 ms

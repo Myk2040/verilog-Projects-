@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+ pass , 0,0
+ pass , 0,1
+ pass , 1,0
+ pass , 0,0
+$finish called at time : 25 ns : File "C:/Users/mayan/OneDrive/Desktop/project/p1_hlaf_adder/p1_hlaf_adder.srcs/sim_1/new/hatb.v" Line 21

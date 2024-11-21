@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Thu Jul 11 16:10:57 2024
+# Process ID: 8760
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/APB/APB Protocol
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21452 C:\Users\mayan\OneDrive\Desktop\project\APB\APB Protocol\APB Protocol.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/APB/APB Protocol/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/APB/APB Protocol\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/mayan/OneDrive/Desktop/project/APB/APB Protocol/APB Protocol.xpr}

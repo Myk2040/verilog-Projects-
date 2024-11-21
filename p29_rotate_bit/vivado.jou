@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Mon Mar 18 07:17:03 2024
+# Process ID: 2720
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p29_rotate_bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17988 C:\Users\mayan\OneDrive\Desktop\project\p29_rotate_bit\p29_rotate_bit.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p29_rotate_bit/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p29_rotate_bit\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/p29_rotate_bit/p29_rotate_bit.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source rotate_bit_tb.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run all
+relaunch_sim
+add_bp {C:/Users/mayan/OneDrive/Desktop/project/p29_rotate_bit/p29_rotate_bit.srcs/sim_1/new/rotate_bit_tb.v} 40
+remove_bps -file {C:/Users/mayan/OneDrive/Desktop/project/p29_rotate_bit/p29_rotate_bit.srcs/sim_1/new/rotate_bit_tb.v} -line 40
+add_bp {C:/Users/mayan/OneDrive/Desktop/project/p29_rotate_bit/p29_rotate_bit.srcs/sim_1/new/rotate_bit_tb.v} 48
+remove_bps -file {C:/Users/mayan/OneDrive/Desktop/project/p29_rotate_bit/p29_rotate_bit.srcs/sim_1/new/rotate_bit_tb.v} -line 48
+close_sim
+launch_simulation
+source rotate_bit_tb.tcl
+run all
+run all
+close_sim
+launch_simulation
+source rotate_bit_tb.tcl
+close_sim
+launch_simulation
+source rotate_bit_tb.tcl
+run all
+run 1000 ns
+close_sim
+launch_simulation
+source rotate_bit_tb.tcl
+close_sim

@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Sat Oct 26 10:28:24 2024
+# Process ID: 73760
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/project_sram
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent41752 C:\Users\mayan\OneDrive\Desktop\project\project_sram\project_sram.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/project_sram/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/project_sram\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/project_sram/project_sram.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/mayan/OneDrive/Desktop/project/project_sram/project_sram.srcs/sim_1/new/tb.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/mayan/OneDrive/Desktop/project/project_sram/project_sram.srcs/sim_1/new/tb.v
+launch_simulation
+launch_simulation

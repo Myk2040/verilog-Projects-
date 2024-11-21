@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Tue Mar 12 08:49:04 2024
+# Process ID: 45004
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p25_digital_clock
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent44564 C:\Users\mayan\OneDrive\Desktop\project\p25_digital_clock\p25_digital_clock.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p25_digital_clock/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p25_digital_clock\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/p25_digital_clock/p25_digital_clock.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_digital_clock.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim

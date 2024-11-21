@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Mon Mar 18 07:58:02 2024
+# Process ID: 23680
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p2_full_adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13416 C:\Users\mayan\OneDrive\Desktop\project\p2_full_adder\p2_full_adder.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p2_full_adder/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p2_full_adder\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/p2_full_adder/p2_full_adder.xpr
+update_compile_ordupdate_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source fatb.tcl
+close_sim
+launch_simulation
+source fatb.tcl
+close_sim

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Fri Apr 19 10:32:49 2024
+# Process ID: 22588
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p31_file_opretion/p31_file_opretion.runs/synth_1
+# Command line: vivado.exe -log ram.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ram.tcl
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p31_file_opretion/p31_file_opretion.runs/synth_1/ram.vds
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p31_file_opretion/p31_file_opretion.runs/synth_1\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+source ram.tcl -notrace

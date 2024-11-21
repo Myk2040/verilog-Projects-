@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Sun Mar 17 16:14:50 2024
+# Process ID: 26804
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p3_full _using_half
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23968 C:\Users\mayan\OneDrive\Desktop\project\p3_full _using_half\p3_full _using_half.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p3_full _using_half/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p3_full _using_half\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_guioopen_project {C:/Users/mayan/OneDrive/Desktop/project/p3_full _using_half/p3_full _using_half.xpr}uupdate_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim

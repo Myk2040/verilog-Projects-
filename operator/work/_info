@@ -1,0 +1,110 @@
+m255
+K3
+z0
+13
+cModel Technology
+Z0 dC:\Users\mayan\OneDrive\Desktop\project\operator
+T_opt
+V5H<E3`]hImjF?=nRm17`<1
+Z1 04 10 4 work logical_op fast 0
+=1-000ae431a4f1-65e81e65-305-5fa8
+Z2 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.0b;49
+R0
+T_opt1
+!s110 1712814723
+V0^RlX=>UjYn?TA19zKl3_0
+R1
+=1-d88083eee32d-66177a82-35c-41f4
+R2
+n@_opt1
+Z3 OL;O;10.4e;61
+R0
+T_opt2
+!s110 1712237397
+V`BLlgf_R1C=8;4g@d6bD^1
+04 9 4 work fork_join fast 0
+=1-d88083eee32d-660eab54-363-dad0
+R2
+n@_opt2
+R3
+R0
+vfork_join
+!s110 1712237393
+!i10b 1
+!s100 =h1jejIk2g<`^f9izgeZ42
+IjTkG[DdTd@6gjzcm23IXm3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dC:/Users/mayan/OneDrive/Desktop/project/operator
+w1712237245
+8fork_join.v
+Ffork_join.v
+L0 1
+Z6 OL;L;10.4e;61
+r1
+!s85 0
+31
+!s108 1712237393.000000
+!s107 fork_join.v|
+!s90 fork_join.v|
+!i113 0
+Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vlogical_op
+!s110 1712814718
+!i10b 1
+!s100 G2oQ3_D`g]a12I:f>zBH10
+IMJ8<efii`a^_FP[RGD]k03
+R4
+R5
+w1712814688
+8Event.v
+FEvent.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1712814717.000000
+!s107 Event.v|
+!s90 Event.v|
+!i113 0
+R7
+vram
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 Sh_]k_Q>=ehaVfY=]aEC12
+ICmGo@F072=Z?m>KVW9H[[3
+R5
+w1711463067
+8C:/Users/mayan/OneDrive/Desktop/project/p30_ram/p30_ram.srcs/sources_1/new/top.v
+FC:/Users/mayan/OneDrive/Desktop/project/p30_ram/p30_ram.srcs/sources_1/new/top.v
+L0 5
+R6
+Z8 !s108 1712818448.000000
+!s107 C:/Users/mayan/OneDrive/Desktop/project/p30_ram/p30_ram.srcs/sources_1/new/top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/mayan/OneDrive/Desktop/project/p30_ram/p30_ram.srcs/sources_1/new/top.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vtb
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 zUB?Xok_Hz:aMZEfdVhG33
+IJ_EF7bAK<1]l16VnM=N1`1
+R5
+w1712815425
+8C:/Users/mayan/OneDrive/Desktop/project/p30_ram/p30_ram.srcs/sim_1/new/tb.v
+FC:/Users/mayan/OneDrive/Desktop/project/p30_ram/p30_ram.srcs/sim_1/new/tb.v
+L0 6
+R6
+R8
+!s107 C:/Users/mayan/OneDrive/Desktop/project/p30_ram/p30_ram.srcs/sim_1/new/tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/mayan/OneDrive/Desktop/project/p30_ram/p30_ram.srcs/sim_1/new/tb.v|
+!i113 0
+R9

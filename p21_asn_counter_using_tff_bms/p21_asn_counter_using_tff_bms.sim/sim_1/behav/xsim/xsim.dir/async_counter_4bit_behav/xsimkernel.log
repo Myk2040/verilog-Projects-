@@ -1,0 +1,7 @@
+Running: xsim.dir/async_counter_4bit_behav/xsimk.exe -simmode gui -wdb async_counter_4bit_behav.wdb -simrunnum 0 -socket 49735
+Design successfully loaded
+Design Loading Memory Usage: 8504 KB (Peak: 8504 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 9156 KB (Peak: 9156 KB)
+Simulation CPU Usage: 108 ms

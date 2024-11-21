@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Tue Jan 30 23:35:36 2024
+# Process ID: 35136
+# Current directory: C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34620 C:\Users\mayan\OneDrive\Desktop\project\p20_ase_counter_t_ff\p20_ase_counter_t_ff.xpr
+# Log file: C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/vivado.log
+# Journal file: C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff\vivado.jou
+# Running On: mayank, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16876 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.xpr
+file mkdir C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new
+close [ open C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/t_ff.v w ]
+add_files C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/t_ff.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/counter_using_tff.v w ]
+add_files C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/counter_using_tff.v
+update_compile_order -fileset sources_1
+launch_simulation
+source counter_using_tff.tcl
+update_compile_order -fileset sources_1
+add_force {/counter_using_tff/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/counter_using_tff/rst} -radix hex {0 0ns}
+add_force {/counter_using_tff/t} -radix hex {1 0ns} {0 100000ps} -repeat_every 200000ps
+run 10000 ns
+close_sim
+launch_simulation
+source counter_using_tff.tcl
+add_force {/counter_using_tff/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/counter_using_tff/rst} -radix hex {0 0ns} {1 500000ps} -repeat_every 1000000ps
+add_force {/counter_using_tff/t} -radix hex {1 0ns} {0 100000ps} -repeat_every 200000ps
+run 10000 ns
+add_force {/counter_using_tff/rst} -radix hex {0 0ns}
+run 10000 ns
+close_sim
+launch_simulation
+source counter_using_tff.tcl
+add_force {/counter_using_tff/clk} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+add_force {/counter_using_tff/t} -radix hex {0 0ns} {1 100000ps} -repeat_every 200000ps
+run 10000 ns
+close_sim
+launch_simulation
+launch_simulation
+source counter_using_tff.tcl
+add_force {/counter_using_tff/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/counter_using_tff/t} -radix hex {1 0ns} {0 100000ps} -repeat_every 200000ps
+run 10000 ns
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source counter_using_tff.tcl
+export_ip_user_files -of_objects  [get_files C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/counter_using_tff.v] -no_script -reset -force -quiet
+remove_files  C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/counter_using_tff.v
+remove_files  C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/counter_using_tff.v
+file delete -force C:/Users/mayan/OneDrive/Desktop/project/p20_ase_counter_t_ff/p20_ase_counter_t_ff.srcs/sources_1/new/counter_using_tff.v
+launch_simulation
+launch_simulation
+close_sim
